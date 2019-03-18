@@ -1,42 +1,78 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="PortfolioWeb._Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="PortfolioWeb.Default" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <script type="text/javascript">
+        function getWidth() {
+            var intViewportWidth = window.innerWidth;
+            var w = window.innerWidth;
+            var h = window.innerHeight;
+            var ow = window.outerWidth; //including toolbars and status bar etc.
+            var oh = window.outerHeight;
+            if (window.matchMedia("(min-width: 400px)").matches) {
+                /* the viewport is at least 400 pixels wide */
+            }
+            else {
+                /* the viewport is less than 400 pixels wide */
+            }
+            if (self.innerWidth) {
+                return self.innerWidth;
+            }
+            if (document.documentElement && document.documentElement.clientWidth) {
+                return document.documentElement.clientWidth;
+            }
+            if (document.body) {
+                return document.body.clientWidth;
+            }
+        }
+    </script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            // See if this is a touch device
+            if ('ontouchstart' in window) {
+                // Set the correct body class
+                $('body').removeClass('no-touch').addClass('touch');
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+                // Add the touch toggle to show text
+                $('div.boxInner img').click(function () {
+                    $(this).closest('.boxInner').toggleClass('touchFocus');
+                });
+            }
+        });
+    </script>
 
+    <asp:Table ID="Table1" runat="server" Height="85" BackColor="SkyBlue"></asp:Table>
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <h1 class="text-center">Welcome to my website.</h1>
+        <p class="lead">&nbsp;</p>
     </div>
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
+            <h2>About Me</h2>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+                .
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default" href="About">Learn More &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Web Hosting</h2>
+            <h2>Content Me</h2>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
+                &nbsp;
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <a class="btn btn-default" href="Contact">Learn More &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>My Portfolio</h2>
+            <p>
+                &nbsp;
+            </p>
+            <p>
+                <a class="btn btn-default" href="CollectionWeb1.aspx">Learn More &raquo;</a>
             </p>
         </div>
     </div>
-
 </asp:Content>

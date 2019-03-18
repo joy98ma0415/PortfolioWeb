@@ -1,13 +1,13 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace PortfolioWeb
+namespace PortfolioWeb.HTML
 {
-    public partial class Site_Mobile : System.Web.UI.MasterPage
+    public partial class PortfolioWeb2 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

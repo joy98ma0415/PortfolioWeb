@@ -7,10 +7,10 @@
 // </自動產生的>
 //------------------------------------------------------------------------------
 
-namespace PortfolioWeb {
+namespace PortfolioWeb.HTML {
     
     
-    public partial class Default {
+    public partial class PortfolioWeb3 {
         
         /// <summary>
         /// Table1 控制項。

@@ -7,11 +7,10 @@ using System.Web.UI.WebControls;
 
 namespace PortfolioWeb
 {
-    public partial class SiteMaster : MasterPage
+    public partial class HTMLSite : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
 
         protected void Timer1_Tick(object sender, EventArgs e)

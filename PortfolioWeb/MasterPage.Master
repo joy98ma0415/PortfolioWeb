@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="PortfolioWeb.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="PortfolioWeb.MasterPage" %>
 
 <!DOCTYPE html>
 
@@ -162,19 +162,11 @@
         .textAlign {
             text-align: center;
         }
-
-        .auto-style1 {
-            height: -42px;
-        }
-
-        .auto-style2 {
-            height: 223px;
-        }
     </style>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - 我的 ASP.NET  應用程式</title>
+    <title><%: Page.Title %>- 我的 ASP.NET  作品集</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -182,6 +174,16 @@
 
     <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <style type="text/css">
+        .auto-style1 {
+            color: #B94FFF;
+        }
+
+        .auto-style2 {
+            background-color: #99CCFF;
+        }
+    </style>
 </head>
 <body>
     <form runat="server">
@@ -205,7 +207,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top" style="left: 0; right: 0; top: 0; height: 115px; background-image: url('/images/waves_cyc.jpg'); color: #000000;">
+        <div class="navbar navbar-inverse navbar-fixed-top" style="left: 0; right: 0; top: 0; height: 115px; background-image: url('/images/3arrows_cyc.jpg'); color: #000000;">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -214,28 +216,16 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" runat="server" href="~/index.html">
-                        <asp:ImageButton ID="ImageButton1" runat="server" Width="30px" Height="30px" ImageUrl="~/images/resume.png" />
-                        <span class="auto-style1"><strong>Joy's Portfolio</strong></span></a><br />
+                        <span class="auto-style1"><strong><span class="auto-style2">我的作品集</span></strong></span></a><br />
                     <br />
                     <br />
-                    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
-                        <ContentTemplate>
-                            <asp:Label ID="Label1" runat="server" CssClass="auto-style3" Font-Size="18px" Text="Label" Style="background-color: #FFCC99"></asp:Label>
-                            <asp:Timer ID="Timer1" runat="server" OnTick="Timer1_Tick" Interval="1000">
-                            </asp:Timer>
-                        </ContentTemplate>
-                    </asp:UpdatePanel>
                     <br />
                     &nbsp;
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/Default">首頁</a></li>
-                        <li><a runat="server" href="~/About">關於</a></li>
-                        <li><a runat="server" href="~/index.html">作品集</a></li>
-                        <li><a runat="server" href="~/">訪客留言板</a></li>
-                        <li><a runat="server" href="https://boardweb.azurewebsites.net">公佈欄</a></li>
-                        <li><a runat="server" href="~/404Page.html">部落格</a></li>
+                        <li><a runat="server" href="~/Default" class="auto-style1">首頁</a></li>
+                        <li><a runat="server" href="~/CollectionWeb1.aspx" class="auto-style1">ASP.NET作品集</a></li>
                     </ul>
                 </div>
             </div>
@@ -243,7 +233,12 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr class="auto-style2" />
+            <br />
+            <br />
+            <br />
+            <br />
+            <hr />
+
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> 年  - 我的 ASP.NET 作品集</p>
             </footer>
