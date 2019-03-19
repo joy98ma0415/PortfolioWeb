@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HTMLSite.Master" AutoEventWireup="true" CodeBehind="PortfolioWeb5.aspx.cs" Inherits="PortfolioWeb.HTML.PortfolioWeb5" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PHP/PHPSite.Master" AutoEventWireup="true" CodeBehind="PortfolioWeb4.aspx.cs" Inherits="PortfolioWeb.PHP.PortfolioWeb4" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
@@ -43,7 +43,7 @@
 
     <asp:Table ID="Table1" runat="server" Height="85" BackColor="Plum"></asp:Table>
 
-    <h1 class="text-center">我的HTML作品集</h1>
+    <h1 class="text-center">我的PHP作品集</h1>
     <br />
     <!-- Project One -->
     <div class="row">
@@ -51,7 +51,7 @@
             <div class="card h-100">
                 &nbsp;<div class="card-body">
                     <h4 class="card-title">
-                        <a href="">Project TwentyFive</a>
+                        <a href="">Project Nineteen</a>
                     </h4>
                     <p class="card-text">這是我的網頁</p>
                 </div>
@@ -61,7 +61,7 @@
             <div class="card h-100">
                 &nbsp;<div class="card-body">
                     <h4 class="card-title">
-                        <a href="">Project TwentySix</a>
+                        <a href="">Project Twenty</a>
                     </h4>
                     <p class="card-text">這是我的網頁</p>
                 </div>
@@ -71,7 +71,7 @@
             <div class="card h-100">
                 &nbsp;<div class="card-body">
                     <h4 class="card-title">
-                        <a href="">Project TwentySeven</a>
+                        <a href="">Project TwentyOne</a>
                     </h4>
                     <p class="card-text">這是我的網頁</p>
                 </div>
@@ -81,7 +81,7 @@
             <div class="card h-100">
                 &nbsp;<div class="card-body">
                     <h4 class="card-title">
-                        <a href="">Project TwentyEight</a>
+                        <a href="">Project TwentyTwo</a>
                     </h4>
                     <p class="card-text">這是我的網頁</p>
                 </div>
@@ -91,7 +91,7 @@
             <div class="card h-100">
                 &nbsp;<div class="card-body">
                     <h4 class="card-title">
-                        <a href="">Project TwentyNine</a>
+                        <a href="">Project TwentyThree</a>
                     </h4>
                     <p class="card-text">這是我的網頁</p>
                 </div>
@@ -101,7 +101,7 @@
             <div class="card h-100">
                 &nbsp;<div class="card-body">
                     <h4 class="card-title">
-                        <a href="">Project Thirty</a>
+                        <a href="">Project TwentyFour</a>
                     </h4>
                     <p class="card-text">這是我的網頁</p>
                 </div>
@@ -130,10 +130,16 @@
                 <a class="page-link" href="PortfolioWeb3.aspx">3</a>
             </li>
             <li class="page-item">
-                <a class="page-link" href="PortfolioWeb4.aspx">4</a>
+                <a class="page-link" style="background-color: deeppink" href="PortfolioWeb4.aspx">4</a>
             </li>
             <li class="page-item">
-                <a class="page-link" style="background-color: deeppink" href="PortfolioWeb5.aspx">5</a>
+                <a class="page-link" href="PortfolioWeb5.aspx">5</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="Collection1" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
             </li>
         </ul>
     </div>

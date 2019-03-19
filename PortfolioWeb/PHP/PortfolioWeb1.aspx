@@ -1,5 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HTMLSite.Master" AutoEventWireup="true" CodeBehind="PortfolioWeb5.aspx.cs" Inherits="PortfolioWeb.HTML.PortfolioWeb5" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PHP/PHPSite.Master" AutoEventWireup="true" CodeBehind="PortfolioWeb1.aspx.cs" Inherits="PortfolioWeb.PHP.PortfolioWeb1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
         function getWidth() {
@@ -43,7 +42,7 @@
 
     <asp:Table ID="Table1" runat="server" Height="85" BackColor="Plum"></asp:Table>
 
-    <h1 class="text-center">我的HTML作品集</h1>
+    <h1 class="text-center">我的PHP作品集</h1>
     <br />
     <!-- Project One -->
     <div class="row">
@@ -51,9 +50,9 @@
             <div class="card h-100">
                 &nbsp;<div class="card-body">
                     <h4 class="card-title">
-                        <a href="">Project TwentyFive</a>
+                        <a href="">Project One</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">-&nbsp; -</p>
                 </div>
             </div>
         </div>
@@ -61,9 +60,9 @@
             <div class="card h-100">
                 &nbsp;<div class="card-body">
                     <h4 class="card-title">
-                        <a href="">Project TwentySix</a>
+                        <a href="">Project Two</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">這是我的網頁，</p>
                 </div>
             </div>
         </div>
@@ -71,9 +70,9 @@
             <div class="card h-100">
                 &nbsp;<div class="card-body">
                     <h4 class="card-title">
-                        <a href="">Project TwentySeven</a>
+                        <a href="">Project Three</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">這是我的網頁，</p>
                 </div>
             </div>
         </div>
@@ -81,9 +80,9 @@
             <div class="card h-100">
                 &nbsp;<div class="card-body">
                     <h4 class="card-title">
-                        <a href="">Project TwentyEight</a>
+                        <a href="">Project Four</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">這是我的網頁，</p>
                 </div>
             </div>
         </div>
@@ -91,9 +90,9 @@
             <div class="card h-100">
                 &nbsp;<div class="card-body">
                     <h4 class="card-title">
-                        <a href="">Project TwentyNine</a>
+                        <a href="">Project Five</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">這是我的網頁，</p>
                 </div>
             </div>
         </div>
@@ -101,9 +100,9 @@
             <div class="card h-100">
                 &nbsp;<div class="card-body">
                     <h4 class="card-title">
-                        <a href="">Project Thirty</a>
+                        <a href="">Project Six</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">這是我的網頁，</p>
                 </div>
             </div>
         </div>
@@ -115,13 +114,7 @@
     <div class="textAlign">
         <ul class="pagination justify-content-center" style="width: 479px; margin-left: 370px">
             <li class="page-item">
-                <a class="page-link" href="Collection1" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                    <span class="sr-only">Previous</span>
-                </a>
-            </li>
-            <li class="page-item">
-                <a class="page-link" href="PortfolioWeb1.aspx">1</a>
+                <a class="page-link" style="background-color: deeppink" href="PortfolioWeb1.aspx">1</a>
             </li>
             <li class="page-item">
                 <a class="page-link" href="PortfolioWeb2.aspx">2</a>
@@ -133,7 +126,13 @@
                 <a class="page-link" href="PortfolioWeb4.aspx">4</a>
             </li>
             <li class="page-item">
-                <a class="page-link" style="background-color: deeppink" href="PortfolioWeb5.aspx">5</a>
+                <a class="page-link" href="PortfolioWeb5.aspx">5</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="Collection1" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
             </li>
         </ul>
     </div>

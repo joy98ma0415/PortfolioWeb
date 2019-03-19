@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HTMLSite.Master" AutoEventWireup="true" CodeBehind="PortfolioWeb5.aspx.cs" Inherits="PortfolioWeb.HTML.PortfolioWeb5" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/JavaScript/JavaScriptSite.Master" AutoEventWireup="true" CodeBehind="PortfolioWeb5.aspx.cs" Inherits="PortfolioWeb.JavaScript.PortfolioWeb5" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
@@ -43,7 +43,7 @@
 
     <asp:Table ID="Table1" runat="server" Height="85" BackColor="Plum"></asp:Table>
 
-    <h1 class="text-center">我的HTML作品集</h1>
+    <h1 class="text-center">我的JavaScript作品集</h1>
     <br />
     <!-- Project One -->
     <div class="row">

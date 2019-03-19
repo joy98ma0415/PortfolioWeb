@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HTMLSite.Master" AutoEventWireup="true" CodeBehind="PortfolioWeb5.aspx.cs" Inherits="PortfolioWeb.HTML.PortfolioWeb5" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="PortfolioWeb2.aspx.cs" Inherits="PortfolioWeb.PortfolioWeb2" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
@@ -43,67 +43,73 @@
 
     <asp:Table ID="Table1" runat="server" Height="85" BackColor="Plum"></asp:Table>
 
-    <h1 class="text-center">我的HTML作品集</h1>
+    <h1 class="text-center">我的ASP.NET作品集 - 控制項篇</h1>
     <br />
     <!-- Project One -->
     <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
                 &nbsp;<div class="card-body">
+                    <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
-                        <a href="">Project TwentyFive</a>
+                        <a href="https://collectionapp.azurewebsites.net/Repeater">Project Seven</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">- ASP.NET Repeater範例 -</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
                 &nbsp;<div class="card-body">
+                    <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
-                        <a href="">Project TwentySix</a>
+                        <a href="https://collectionapp.azurewebsites.net/CRUD">Project Eight</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">- ASP.NET GridView範例 -</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
                 &nbsp;<div class="card-body">
+                    <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
-                        <a href="">Project TwentySeven</a>
+                        <a href="https://collectionapp.azurewebsites.net/DropDownList">Project Nine</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">- ASP.NET DropDownList範例 -</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
                 &nbsp;<div class="card-body">
+                    <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
-                        <a href="">Project TwentyEight</a>
+                        <a href="https://collectionapp.azurewebsites.net/MultiView">Project Ten</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">- ASP.NET MultiView範例 -</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
                 &nbsp;<div class="card-body">
+                    <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
-                        <a href="">Project TwentyNine</a>
+                        <a href="https://collectionapp.azurewebsites.net/img/ImageSlideShow">Project Eleven</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">- ASP.NET XML+圖片輪播範例 -</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
                 &nbsp;<div class="card-body">
+                    <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
-                        <a href="">Project Thirty</a>
+                        <a href="https://collectionapp.azurewebsites.net/DataList/DataList">Project Twelve</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">- ASP.NET DataList範例 -</p>
                 </div>
             </div>
         </div>
@@ -124,7 +130,7 @@
                 <a class="page-link" href="PortfolioWeb1.aspx">1</a>
             </li>
             <li class="page-item">
-                <a class="page-link" href="PortfolioWeb2.aspx">2</a>
+                <a class="page-link" style="background-color: deeppink" href="PortfolioWeb2.aspx">2</a>
             </li>
             <li class="page-item">
                 <a class="page-link" href="PortfolioWeb3.aspx">3</a>
@@ -133,7 +139,13 @@
                 <a class="page-link" href="PortfolioWeb4.aspx">4</a>
             </li>
             <li class="page-item">
-                <a class="page-link" style="background-color: deeppink" href="PortfolioWeb5.aspx">5</a>
+                <a class="page-link" href="PortfolioWeb5.aspx">5</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="Collection1" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
             </li>
         </ul>
     </div>

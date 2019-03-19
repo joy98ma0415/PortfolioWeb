@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HTMLSite.Master" AutoEventWireup="true" CodeBehind="PortfolioWeb5.aspx.cs" Inherits="PortfolioWeb.HTML.PortfolioWeb5" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="PortfolioWeb5.aspx.cs" Inherits="PortfolioWeb.PortfolioWeb5" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
@@ -43,67 +43,73 @@
 
     <asp:Table ID="Table1" runat="server" Height="85" BackColor="Plum"></asp:Table>
 
-    <h1 class="text-center">我的HTML作品集</h1>
+    <h1 class="text-center">我的ASP.NET作品集 - 系統篇</h1>
     <br />
     <!-- Project One -->
     <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
                 &nbsp;<div class="card-body">
+                    <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
                         <a href="">Project TwentyFive</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">- ASP.NET 校友管理系統範例 -</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
                 &nbsp;<div class="card-body">
+                    <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
                         <a href="">Project TwentySix</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">- ASP.NET 通訊錄管理系統範例 -</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
                 &nbsp;<div class="card-body">
+                    <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
                         <a href="">Project TwentySeven</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">- ASP.NET 權限管理系統範例 -</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
                 &nbsp;<div class="card-body">
+                    <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
                         <a href="">Project TwentyEight</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">- ASP.NET 酒店管理系統範例 -</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
                 &nbsp;<div class="card-body">
+                    <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
                         <a href="">Project TwentyNine</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">- ASP.NET 售票管理系統範例 -</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
                 &nbsp;<div class="card-body">
+                    <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
                         <a href="">Project Thirty</a>
                     </h4>
-                    <p class="card-text">這是我的網頁</p>
+                    <p class="card-text">- ASP.NET 購物商城範例 -</p>
                 </div>
             </div>
         </div>

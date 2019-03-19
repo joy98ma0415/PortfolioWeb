@@ -137,11 +137,20 @@
     <Content Include="HTML\PortfolioWeb3.aspx" />
     <Content Include="HTML\PortfolioWeb4.aspx" />
     <Content Include="HTML\PortfolioWeb5.aspx" />
+    <Content Include="if.aspx" />
     <Content Include="images\HTML.png" />
     <Content Include="images\resume.png" />
     <Content Include="index.html" />
+    <Content Include="JavaScript\PortfolioWeb1.aspx" />
+    <Content Include="JavaScript\PortfolioWeb2.aspx" />
+    <Content Include="JavaScript\PortfolioWeb3.aspx" />
+    <Content Include="JavaScript\PortfolioWeb4.aspx" />
+    <Content Include="JavaScript\PortfolioWeb5.aspx" />
     <Content Include="MasterPage.Master" />
     <Content Include="HTMLSite.Master" />
+    <Content Include="PHP\PHPSite.Master" />
+    <Content Include="JavaScript\JavaScriptSite.Master" />
+    <Content Include="While.aspx" />
     <None Include="Properties\PublishProfiles\PortfolioWebApplication - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="images\3arrows_cyc.jpg" />
@@ -151,6 +160,16 @@
     <Content Include="images\icons8-line-50.png" />
     <Content Include="images\icons8-phone-50.png" />
     <Content Include="images\waves_cyc.jpg" />
+    <Content Include="PHP\PortfolioWeb1.aspx" />
+    <Content Include="PHP\PortfolioWeb2.aspx" />
+    <Content Include="PHP\PortfolioWeb3.aspx" />
+    <Content Include="PHP\PortfolioWeb4.aspx" />
+    <Content Include="PHP\PortfolioWeb5.aspx" />
+    <Content Include="PortfolioWeb1.aspx" />
+    <Content Include="PortfolioWeb2.aspx" />
+    <Content Include="PortfolioWeb3.aspx" />
+    <Content Include="PortfolioWeb4.aspx" />
+    <Content Include="PortfolioWeb5.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -271,12 +290,138 @@
     <Compile Include="HTML\PortfolioWeb5.aspx.designer.cs">
       <DependentUpon>PortfolioWeb5.aspx</DependentUpon>
     </Compile>
+    <Compile Include="if.aspx.cs">
+      <DependentUpon>if.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="if.aspx.designer.cs">
+      <DependentUpon>if.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript\JavaScriptSite.Master.cs">
+      <DependentUpon>JavaScriptSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript\JavaScriptSite.Master.designer.cs">
+      <DependentUpon>JavaScriptSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript\PortfolioWeb1.aspx.cs">
+      <DependentUpon>PortfolioWeb1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript\PortfolioWeb1.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript\PortfolioWeb2.aspx.cs">
+      <DependentUpon>PortfolioWeb2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript\PortfolioWeb2.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript\PortfolioWeb3.aspx.cs">
+      <DependentUpon>PortfolioWeb3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript\PortfolioWeb3.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript\PortfolioWeb4.aspx.cs">
+      <DependentUpon>PortfolioWeb4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript\PortfolioWeb4.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript\PortfolioWeb5.aspx.cs">
+      <DependentUpon>PortfolioWeb5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript\PortfolioWeb5.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb5.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PHP\PHPSite.Master.cs">
+      <DependentUpon>PHPSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PHP\PHPSite.Master.designer.cs">
+      <DependentUpon>PHPSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PHP\PortfolioWeb1.aspx.cs">
+      <DependentUpon>PortfolioWeb1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PHP\PortfolioWeb1.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PHP\PortfolioWeb2.aspx.cs">
+      <DependentUpon>PortfolioWeb2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PHP\PortfolioWeb2.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PHP\PortfolioWeb3.aspx.cs">
+      <DependentUpon>PortfolioWeb3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PHP\PortfolioWeb3.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PHP\PortfolioWeb4.aspx.cs">
+      <DependentUpon>PortfolioWeb4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PHP\PortfolioWeb4.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PHP\PortfolioWeb5.aspx.cs">
+      <DependentUpon>PortfolioWeb5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PHP\PortfolioWeb5.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PortfolioWeb1.aspx.cs">
+      <DependentUpon>PortfolioWeb1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortfolioWeb1.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PortfolioWeb2.aspx.cs">
+      <DependentUpon>PortfolioWeb2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortfolioWeb2.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PortfolioWeb3.aspx.cs">
+      <DependentUpon>PortfolioWeb3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortfolioWeb3.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PortfolioWeb4.aspx.cs">
+      <DependentUpon>PortfolioWeb4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortfolioWeb4.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PortfolioWeb5.aspx.cs">
+      <DependentUpon>PortfolioWeb5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortfolioWeb5.aspx.designer.cs">
+      <DependentUpon>PortfolioWeb5.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -292,6 +437,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="While.aspx.cs">
+      <DependentUpon>While.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="While.aspx.designer.cs">
+      <DependentUpon>While.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
