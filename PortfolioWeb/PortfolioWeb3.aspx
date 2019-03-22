@@ -52,9 +52,9 @@
                 &nbsp;<div class="card-body">
                     <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
-                        <a href="">Project Thirteen</a>
+                        <a href="https://diarywebapp.azurewebsites.net">Project Thirteen</a>
                     </h4>
-                    <p class="card-text">- ASP.NET 記事本範例 -</p>
+                    <p class="card-text">- ASP.NET 日記本範例 -</p>
                 </div>
             </div>
         </div>
@@ -63,9 +63,9 @@
                 &nbsp;<div class="card-body">
                     <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
-                        <a href="">Project Fourteen</a>
+                        <a href="https://collectionapp.azurewebsites.net/ChatRoom">Project Fourteen</a>
                     </h4>
-                    <p class="card-text">- ASP.NET 學生考勤系統範例 -</p>
+                    <p class="card-text">- ASP.NET 聊天室範例 -</p>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
                 &nbsp;<div class="card-body">
                     <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
-                        <a href="">Project Fifteen</a>
+                        <a href="https://collectionapp.azurewebsites.net/Vote/Easy_Vote">Project Fifteen</a>
                     </h4>
                     <p class="card-text">- ASP.NET 投票系統範例 -</p>
                 </div>
@@ -107,9 +107,9 @@
                 &nbsp;<div class="card-body">
                     <img class="card-img-top" src="http://placehold.it/500x325" alt="" style="height: 260px; width: 320px;">
                     <h4 class="card-title">
-                        <a href="">Project Eighteen</a>
+                        <a href="https://collectionapp.azurewebsites.net/Attendance">Project Eighteen</a>
                     </h4>
-                    <p class="card-text">- ASP.NET 留言板範例 -</p>
+                    <p class="card-text">- ASP.NET 學生考勤系統範例 -</p>
                 </div>
             </div>
         </div>
